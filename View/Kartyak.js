@@ -8,8 +8,8 @@ export default class Kartyak{
         this.#db=db;
         this.#kartyaLista=kartyaLista
         let szuloElem=$(".jatekter");
-        console-log(szuloElem)
-        for (let index = 0; index < kartyaLista.lenght; index++) {
+        console.log(szuloElem)
+        for (let index = 0; index < 20; index++) {
            const kartya = new Kartya(index, false, szuloElem)
             this.#kartyaLista.push(kartya);
         }

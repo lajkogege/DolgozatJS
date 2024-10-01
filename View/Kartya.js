@@ -22,7 +22,9 @@ export default class Kartya{
     }
     setSzoveg(lista){
         if(this.#allapot){
-        
+           array.forEach(element => {
+            
+           });
         }
         else{
 

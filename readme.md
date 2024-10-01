@@ -26,7 +26,7 @@ Kartya osztály
     Fogd meg a létrehozott kártya div-et!
     Tegyél eseménykezelőt a a kártyára!
     Kattintáskor jelenjen meg a megfelelő szöveg a kártyán!
-    Hozz létre saját eseményt!
+    Hozz létre saját eseményt!feliratozas
 
 Controller
 

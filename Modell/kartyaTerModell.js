@@ -1,8 +1,8 @@
-class kartyaTerModell {
+export default class kartyaTerModell {
   #feliratLista = [];
-  #kartyaTer = [];
+  #kartyaTerTomb = [];
   #db;
-  constructor(db) {
+  constructor() {
     this.db = db;
     this.#feliratLista = [
       "Az egyetlen út, ami garantáltan nem vezet sehová, ha meg sem próbálod.",
@@ -26,16 +26,33 @@ class kartyaTerModell {
       "Az erő nem fizikai képességből fakad, hanem rendíthetetlen akaraterőből.",
       "Ne feledd: a legnehezebb utakon járva találjuk meg a legszebb kilátásokat.",
     ];
+    for (let index = 0; index < this.#feliratLista.length; index++) {
+      this.#kartyaTerTomb.push(false);
+      
+    }
+  }
+  
+getFeliaratLista(){
+return this.#feliratLista
+}
+
+
+  getKartyaterTomb(){
+    return this.#kartyaTerTomb;
+  }
+  getListaAdat() {
+    return this.getListaAdat;
   }
 
-  getListaAdat(feliratLista) {}
+  getDbValtozo(db) {
+    return this.#db
+  }
 
-  getDbValtozo(db) {}
 
   dbNoveles(db) {
-    return db++;
+    this.#db++;
   }
   feliratValtoztatas(id) {
-    this.#kartyaTer;
+    
   }
 }

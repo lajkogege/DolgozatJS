@@ -1,7 +1,7 @@
-import { kartyaTerController } from "./Controller/kartyaTerController.js";
-
+import kartyaTerController from "./Controller/kartyaTerController.js";
+console.log("Hell")
 $(function(){
-   // new kartyaTerController();
-   console.log("Hello  ")
+   new kartyaTerController();
+   
 })
 
